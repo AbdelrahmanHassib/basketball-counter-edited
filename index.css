@@ -1,0 +1,47 @@
+body {
+    color: #EEEEEE;
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    padding: 15px;
+    background: #080001;
+    font-size: 60px;
+    border-radius: 5px;
+}
+
+button {
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #1B244A;
+    border-radius: 5px;
+    border: 1px solid #9AABD8;
+    padding: 10px;
+    margin: 20px 4px;
+}
+
+h2 {
+    text-shadow: 0px 0px 5px white;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#newGameButton {
+    padding: 30px;
+    font-size: 30px;
+}
+
+button:hover {
+    background: #0C4A6E;
+}
